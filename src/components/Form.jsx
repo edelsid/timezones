@@ -43,10 +43,10 @@ export function Form({ setEntry }) {
          value={zone}
          name="zone"
          onChange={inputChange}>
-            <option defaultValue value="3">Moscow</option>
-            <option value="-5">New York</option>
-            <option value="0">London</option>
-            <option value="9">Tokyo</option>
+            <option defaultValue value="3">Moscow (+3)</option>
+            <option value="-5">New York (-5)</option>
+            <option value="0">London (0)</option>
+            <option value="9">Tokyo (+9)</option>
          </select>
       </div>
       <button className="btn" type="submit">Добавить</button>
