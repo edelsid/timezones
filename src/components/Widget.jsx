@@ -3,12 +3,13 @@ import { Form } from "./Form"
 import { Clocks } from "./Clocks"
 import { Clock } from "./Clock"
 
+let clocks = [{
+   id: 1,
+   name: 'Moscow',
+   zone: 3,
+}];
+
 export function Widget() {
-   let clocks = [{
-      id: 1,
-      name: 'Moscow',
-      zone: 3,
-   }];
 
    const [widgets, setWidgets] = useState(clocks);
 
